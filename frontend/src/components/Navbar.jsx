@@ -1,17 +1,29 @@
+import { NavLink } from "react-router-dom";
 
 export const Navbar = () => {
   return (
     <div>
-        <ul className="font-black flex gap-4 font-normal text-white justify-center bg-black p-5">
-            <li>Study Abroad</li>
-            <li>Explore countries</li>
-            <li>Find a course </li>
-            <li>What we do?</li>
-            <li>IELTS</li>
-            <li>Student Essentials</li>
-            <li>IDP FastLane</li>
-        </ul>
-    </div>
-  )
-}
+      <ul className="font-black flex gap-4 font-normal text-white justify-center bg-black p-5">
+        <NavLink to={"/"}>
+          <li>Home page</li>
+        </NavLink>
+        <NavLink to={"/studyabroad"}>
+          <li>Study Abroad</li>
+        </NavLink>
+        <NavLink to={"/explore"}>
+          <li>Explore countries</li>
+        </NavLink>
 
+        <NavLink to={"/about"}>
+          <li>About us page</li>
+        </NavLink>
+        <NavLink to={"/testPrep"}>
+          <li>Test Preparation</li>
+        </NavLink>
+        <NavLink to={"/blogs"}>
+          <li>Blogs page</li>
+        </NavLink>
+      </ul>
+    </div>
+  );
+};

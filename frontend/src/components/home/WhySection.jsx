@@ -1,8 +1,8 @@
 
 export const WhySection = () => {
   return (
-    <div className="flex">
-        <div className="w-4/5 m-6 ">
+    <div className="flex bg-blue-900 text-white mt-7 p-8">
+        <div className="w-4/5 m-6">
             <h1 className="text-5xl block">WHY <span className="block">Aecc</span></h1>
         </div>
         <div className="p-4 m-4">

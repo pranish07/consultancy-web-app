@@ -4,9 +4,9 @@ export const StudyInPlacesCard = ({image,country}) => {
   console.log(image,country)
   return (
     <div className="rounded-xl shadow-xl w-full">
-        <img className="rounded-xl" src={image} alt="" />
+        <img className="rounded-tl-xl rounded-tr-xl" src={image} alt="" />
         <p>Study in {country}</p>
-        <small>Learn more</small>
+        <small>Learn more  </small>
     </div>
   )
 }

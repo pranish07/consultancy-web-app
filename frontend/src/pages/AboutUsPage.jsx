@@ -1,4 +1,4 @@
-import { AboutHeader } from "../components/AboutHeader";
+import { AboutHeader } from "../components/about/AboutHeader";
 import { Footer } from "../components/Footer";
 import { Navbar } from "../components/Navbar";
 
