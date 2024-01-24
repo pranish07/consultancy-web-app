@@ -1,5 +1,9 @@
+import { Navbar } from "../components/Navbar"
+
 export const TestPrepPage = () => {
   return (
-    <div>TestPrepPage</div>
+    <div>
+      <Navbar />
+    </div>
   )
 }

@@ -8,15 +8,15 @@ import { TestPrepPage } from "./pages/TestPrepPage";
 
 const App = () => {
   return (
-    <div>
+    <div className="font-ubuntu">
       <Routes>
-      <Route path="/" element={<HomePage />}/>
-      <Route path="/about" element={<AboutUsPage /> }/>
-      <Route path="/blogs" element={<BlogsPage />}/>
-      <Route path="/explore" element={<ExploreUniPage />}/>
-      <Route path="/studyabroad" element={<StudyAbroadPage />}/>
-      <Route path="/testprep" element={<TestPrepPage />}/>
-      
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutUsPage />} />
+        <Route path="/blogs" element={<BlogsPage />} />
+        <Route path="/explore" element={<ExploreUniPage />} />
+        <Route path="/studyabroad" element={<StudyAbroadPage />} />
+        <Route path="/testprep" element={<TestPrepPage />} />
+        <Route path="*" element={"Page not found"} />
       </Routes>
     </div>
   );
