@@ -1,5 +1,11 @@
+// import { Filters } from "../components/studyabroad/Filters"
+import { Navbar } from "../components/Navbar";
 export const StudyAbroadPage = () => {
   return (
-    <div>StudyAbroadPage</div>
-  )
-}
+    <div>
+      <Navbar />
+      Study Abroad
+      {/* <Filters /> */}
+    </div>
+  );
+};

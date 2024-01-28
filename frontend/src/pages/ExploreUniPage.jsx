@@ -1,6 +1,12 @@
+import { Navbar } from "../components/Navbar";
+import { ExploreHeader } from "../components/explore/ExploreHeader";
 
 export const ExploreUniPage = () => {
   return (
-    <div>ExploreUniPage</div>
-  )
-}
+    <div>
+      <Navbar />
+      <ExploreHeader />
+
+    </div>
+  );
+};

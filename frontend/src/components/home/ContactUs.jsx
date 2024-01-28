@@ -2,7 +2,7 @@ export const ContactUs = () => {
   return (
     <section className="flex bg-gray-100 p-10 items-start">
       <div className="w-2/3">
-        <h2 className="text-xl text-purple-400">Better futures, begin with AECC</h2>
+        <h2 className="text-xl text-purple-400">Better futures, begin with Pranish.</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
           voluptatem sequi voluptatum dolorem doloremque nesciunt aliquam id,

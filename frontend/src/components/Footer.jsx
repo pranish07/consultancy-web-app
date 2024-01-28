@@ -2,7 +2,7 @@ export const Footer = () => {
   return (
     <section className="flex ">
       <div className="w-1/2">
-        <h1>Aecc.</h1>
+        <h1>Pranish.</h1>
         <p>Lets get started</p>
         <i>icons</i>
         <i>icons</i>
