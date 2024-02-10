@@ -1,6 +1,6 @@
 export const WhySection = () => {
   return (
-    <div className="flex bg-blue-900 text-white mt-7 p-8">
+    <div className="flex bg-primary text-white mt-7 p-8">
       <div className="w-4/5 m-6">
         <h1 className="text-5xl block">
           WHY <span className="block text-7xl">Pranish.</span>

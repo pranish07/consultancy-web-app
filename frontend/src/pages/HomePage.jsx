@@ -6,13 +6,17 @@ import { WhySection } from "../components/home/WhySection";
 import { ContactUs } from "../components/home/ContactUs";
 import { Footer } from "../components/Footer";
 import { ApplicationProcess } from "../components/home/ApplicationProcess";
+import { Helpline } from "../components/Helpline";
 
 export const HomePage = () => {
   return (
     <div>
+      <Helpline />
       <Navbar />
       <Header />
+      <section className="bg-purple-100">
       <FreeConsultant />
+      </section>
       <WhereYouWantToGo />
 
       <h1 className="text-2xl font-bold text-center my-4">
@@ -37,6 +41,7 @@ export const HomePage = () => {
           />
         </div>
       </section>
+      
       <WhySection />
       <ContactUs />
       <Footer />

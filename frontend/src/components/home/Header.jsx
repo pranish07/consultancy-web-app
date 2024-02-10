@@ -6,7 +6,7 @@ export const Header = () => {
 
         <div className="absolute top-3 text-white left-20 items-start flex flex-col gap-4"> 
           <h3 className="text-3xl font-bold">Study in Australia</h3>
-          <p className="text-xl">Ready for an Aussie adventure? Apply for Feb/July 2024 intakes</p>
+          <p className="text-xl">Ready for an Aussie adventure? Apply for Feb/July 2024 intakes!</p>
           <button className="bg-orange-500  rounded-full py-1 px-7 border-slate-500 inset-0 bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 opacity-100 text-xl hover:orange ">Register Now</button>
         </div>
     </div>
