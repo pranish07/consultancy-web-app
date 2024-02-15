@@ -3,7 +3,7 @@ import { TestPrepExam } from "../components/testprep/TestPrepExam"
 import { TestPrepHeader } from "../components/testprep/TestPrepHeader"
 import { TestprepInfo } from "../components/testprep/TestprepInfo"
 import {Footer} from "../components/Footer"
-
+import {Helpline} from "../components/Helpline"
 export const TestPrepPage = () => {
   return (
     <div>
@@ -14,6 +14,7 @@ export const TestPrepPage = () => {
       <TestPrepExam />
       </div>
       <Footer />
+      <Helpline />
     </div>
   )
 }
