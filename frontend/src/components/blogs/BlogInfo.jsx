@@ -81,37 +81,57 @@ const blog = {
   ],
   Services: [
     {
-      image: "https://www.aeccglobal.com.np/images/2023/08/08/service-icon1.svg",
+      image:
+        "https://www.aeccglobal.com.np/images/2023/08/08/service-icon1.svg",
       heading: "Education Counselling",
     },
     {
-      image: "https://www.aeccglobal.com.np/images/2023/08/08/service-icon2.svg",
+      image:
+        "https://www.aeccglobal.com.np/images/2023/08/08/service-icon2.svg",
       heading: "Visa Application",
     },
     {
-      image: "https://www.aeccglobal.com.np/images/2023/08/08/service-icon3.svg",
+      image:
+        "https://www.aeccglobal.com.np/images/2023/08/08/service-icon3.svg",
       heading: "Application Process",
     },
     {
-      image: "https://www.aeccglobal.com.np/images/2023/08/08/service-icon4.svg",
+      image:
+        "https://www.aeccglobal.com.np/images/2023/08/08/service-icon4.svg",
       heading: "Student Health Insurance",
     },
     {
-      image: "https://www.aeccglobal.com.np/images/2023/08/08/service-icon5.svg",
+      image:
+        "https://www.aeccglobal.com.np/images/2023/08/08/service-icon5.svg",
       heading: "Scholarship Guidance",
     },
     {
-      image: "https://www.aeccglobal.com.np/images/2023/08/08/service-icon6.svg",
+      image:
+        "https://www.aeccglobal.com.np/images/2023/08/08/service-icon6.svg",
       heading: "Student Accommodation",
     },
-    
   ],
 };
+import { useGetBlogsQuery } from "../../api/apiSlice";
 
 export const BlogInfo = () => {
+  const {
+    data: bloged,
+    isLoading,
+    isSuccess,
+    isError,
+    error,
+  } = useGetBlogsQuery();
+
+  console.log(blog)
+  
+  console.log(bloged,isLoading, isSuccess,isError,error)
+
   return (
     <section className="flex justify-between items-start gap-2 w-[90%] m-auto">
       {/* info */}
+
+     
       <div className="w-2/3">
         <div>
           <h1>Top Posts</h1>
@@ -224,18 +244,19 @@ export const BlogInfo = () => {
             })}
           </div>
         </div>
-        <div className="">{/* Services */}
-        <h1>Services</h1>
-        <div className="grid grid-cols-2 ">
-        {blog.Services.map(({image,heading},idx)=>{
-          return(
-            <div key={idx} className="flex gap-3">
-                <img src={image} alt="" />
-                <h4>{heading}</h4>
-            </div>
-          )
-        })}
-        </div>
+        <div className="">
+          {/* Services */}
+          <h1>Services</h1>
+          <div className="grid grid-cols-2 ">
+            {blog.Services.map(({ image, heading }, idx) => {
+              return (
+                <div key={idx} className="flex gap-3">
+                  <img src={image} alt="" />
+                  <h4>{heading}</h4>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
 
