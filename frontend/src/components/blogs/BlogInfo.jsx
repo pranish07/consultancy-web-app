@@ -112,26 +112,12 @@ const blog = {
     },
   ],
 };
-import { useGetBlogsQuery } from "../../api/apiSlice";
 
 export const BlogInfo = () => {
-  const {
-    data: bloged,
-    isLoading,
-    isSuccess,
-    isError,
-    error,
-  } = useGetBlogsQuery();
-
-  console.log(blog)
-  
-  console.log(bloged,isLoading, isSuccess,isError,error)
-
   return (
     <section className="flex justify-between items-start gap-2 w-[90%] m-auto">
       {/* info */}
 
-     
       <div className="w-2/3">
         <div>
           <h1>Top Posts</h1>

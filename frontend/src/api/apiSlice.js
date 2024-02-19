@@ -10,4 +10,4 @@ export const apiSlice = createApi({
   }),
 });
 
-export const { useGetBlogsQuery } = apiSlice;
+export const { useGetBlogsQuery, useGetBlogByIdQuery } = apiSlice;

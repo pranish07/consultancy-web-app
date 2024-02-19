@@ -40,18 +40,18 @@ export const WhereYouWantToGo = () => {
     },
   ];
   return (
-    <div className="text-center">
-      <h3 className="text-xl my-2">
+    <div className="text-center my-10">
+      <h3 className="text-2xl my-2">
         {" "}
         Wherever you want to go, We&apos;ll get you there
       </h3>
-      <p className="text-sm my-2 w-1/2 m-auto mb-6">
+      <p className="text-sm my-2 w-1/2 m-auto mb-8">
         Explore the best study destinations in the world! Learn all about the
         countries&apos; top universities, scholarships, cost of living,
         post-study work rights and more
       </p>
-      <section className="w-[70%] m-auto">
-        <div className="grid grid-cols-3 justify-items-center gap-4">
+      <section className="w-[90%] m-auto">
+        <div className="grid grid-cols-3 justify-items-center gap-8">
           {dataOfPlaces.map((item) => (
             <StudyInPlacesCard
               key={item.id}

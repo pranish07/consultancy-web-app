@@ -5,6 +5,7 @@ import { AboutUsPage } from "./pages/AboutUsPage";
 import { ExploreUniPage } from "./pages/ExploreUniPage";
 import { StudyAbroadPage } from "./pages/StudyAbroadPage";
 import { TestPrepPage } from "./pages/TestPrepPage";
+import { SingleBlogPage } from "./pages/SIngleBlogPage";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutUsPage />} />
         <Route path="/blogs" element={<BlogsPage />} />
+        <Route path="/blogs/:id" element={<SingleBlogPage />} />
         <Route path="/explore" element={<ExploreUniPage />} />
         <Route path="/studyabroad" element={<StudyAbroadPage />} />
         <Route path="/testprep" element={<TestPrepPage />} />
