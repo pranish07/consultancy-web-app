@@ -21,10 +21,10 @@ export const Footer = () => {
           <h1 className="text-5xl">Pranish.</h1>
           <p>Lets get started</p>
           <div className="flex gap-3 justify-end my-3">
-            <FaFacebookF className="text-xl cursor-pointer"/>
-            <FaLinkedin className="text-xl cursor-pointer"/>
-            <FaInstagram className="text-xl cursor-pointer"/>
-            <FaYoutube className="text-xl cursor-pointer"/>
+            <FaFacebookF className="text-xl cursor-pointer" />
+            <FaLinkedin className="text-xl cursor-pointer" />
+            <FaInstagram className="text-xl cursor-pointer" />
+            <FaYoutube className="text-xl cursor-pointer" />
           </div>
         </div>
         <div className="grid grid-cols-3 w-full gap-4">
@@ -157,8 +157,8 @@ export const Footer = () => {
         </div>
       </div>
       <div className="w-[90%] m-auto text-gray-500 pb-20 ">
-        <hr className="m-3"/>
-        <div className="flex gap-2 justify-center ">
+        <hr className="m-3" />
+        <div className="flex gap-6 justify-center ">
           {country.map((item, idx) => {
             return <div key={idx}>{item}</div>;
           })}

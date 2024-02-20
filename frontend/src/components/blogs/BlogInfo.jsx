@@ -115,12 +115,12 @@ const blog = {
 
 export const BlogInfo = () => {
   return (
-    <section className="flex justify-between items-start gap-2 w-[90%] m-auto">
+    <section className="flex justify-between items-start gap-6 w-[90%] m-auto relative my-12">
       {/* info */}
 
       <div className="w-2/3">
         <div>
-          <h1>Top Posts</h1>
+          <h1 className="text-2xl my-5 font-bold">Top Posts</h1>
           <div className="bg-[url(https://www.aeccglobal.com.np/images/2024/01/19/keele-university.webp)] h-[400px] w-full bg-no-repeat bg-cover relative rounded-xl">
             <div className="absolute bottom-0 text-white inset-x-0 bg-gradient-to-t from-primary to-transparent p-3 rounded-b-xl">
               <h1 className="text-3xl font-bold w-2/3">
@@ -147,7 +147,7 @@ export const BlogInfo = () => {
 
         {/* Study in canada */}
         <div className="">
-          <h1 className="text-xl font-bold">Study to canada</h1>
+          <h1 className="text-2xl my-5 font-bold">Study to canada</h1>
           <div className="grid grid-cols-2 gap-4">
             {blog.studyInCanada.map(({ image, heading }, idx) => {
               return (
@@ -155,11 +155,11 @@ export const BlogInfo = () => {
                   key={idx}
                   className="grid grid-cols-2 shadow-[0_10px_20px_-15px_rgba(0,0,0,0.3)] my-2"
                 >
-                  <div className="">
+                  <div className="max-h-28">
                     <img
                       src={image}
                       alt=""
-                      className="bg-cover bg-no-repeat w-full "
+                      className="bg-cover bg-no-repeat w-full h-full"
                     />
                   </div>
                   <div className="m-auto">
@@ -176,7 +176,7 @@ export const BlogInfo = () => {
 
         <div>
           {/* Study in USA */}
-          <h1>Study in USA</h1>
+          <h1 className="text-2xl my-5 font-bold">Study in USA</h1>
           <div className="grid grid-cols-2 gap-4">
             {blog?.studyInUSA?.map(({ image, heading }, idx) => {
               return (
@@ -184,35 +184,7 @@ export const BlogInfo = () => {
                   key={idx}
                   className="grid grid-cols-2 shadow-[0_10px_20px_-15px_rgba(0,0,0,0.3)] my-2"
                 >
-                  <div className="">
-                    <img
-                      src={image}
-                      alt=""
-                      className="bg-cover bg-no-repeat w-full "
-                    />
-                  </div>
-                  <div className="m-auto">
-                    <h3 className="font-bold text-primary text-sm">
-                      {heading}
-                    </h3>
-                    <p className="text-sm">Pranish</p>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-        <div>
-          {/* Courses */}
-          <h1>Courses</h1>
-          <div className="grid grid-cols-2 gap-4">
-            {blog?.Courses?.map(({ image, heading }, idx) => {
-              return (
-                <div
-                  key={idx}
-                  className="grid grid-cols-2 shadow-[0_10px_20px_-15px_rgba(0,0,0,0.3)] my-2"
-                >
-                  <div className="h-[80%] m-auto">
+                  <div className="max-h-28">
                     <img
                       src={image}
                       alt=""
@@ -230,13 +202,41 @@ export const BlogInfo = () => {
             })}
           </div>
         </div>
+        <div>
+          {/* Courses */}
+          <h1 className="text-2xl my-5 font-bold">Courses</h1>
+          <div className="grid grid-cols-2 gap-4">
+            {blog?.Courses?.map(({ image, heading }, idx) => {
+              return (
+                <div
+                  key={idx}
+                  className="grid grid-cols-2 gap-3 shadow-[0_10px_20px_-15px_rgba(0,0,0,0.3)] my-2"
+                >
+                  <div className="max-h-28">
+                    <img
+                      src={image}
+                      alt=""
+                      className="bg-cover bg-no-repeat w-full h-full"
+                    />
+                  </div>
+                  <div className="m-auto">
+                    <h3 className="font-bold text-primary text-sm">
+                      {heading}
+                    </h3>
+                    <p className="text-sm">Pranish</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
         <div className="">
           {/* Services */}
-          <h1>Services</h1>
+          <h1 className="text-2xl my-5 font-bold">Services</h1>
           <div className="grid grid-cols-2 ">
             {blog.Services.map(({ image, heading }, idx) => {
               return (
-                <div key={idx} className="flex gap-3">
+                <div key={idx} className="flex gap-3 items-center">
                   <img src={image} alt="" />
                   <h4>{heading}</h4>
                 </div>
@@ -247,7 +247,7 @@ export const BlogInfo = () => {
       </div>
 
       {/* form */}
-      <div className="w-1/3 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] rounded p-8 sticky top-0 bottom-50">
+      <div className="w-1/3 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] rounded p-8 sticky top-5 bottom-0 mt-20">
         <h4 className="text-xl text-primary font-bold p-2">
           Fulfill your futuristic Academic Goals with Pranish.
         </h4>

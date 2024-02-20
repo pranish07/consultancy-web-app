@@ -4,10 +4,10 @@ export const AboutDesc = () => {
   return (
     <section className="w-[80%] m-auto">
     <div>
-      <h4 className="text-2xl text-center">
+      <h4 className="text-3xl my-4 text-center">
         Welcome to our Virtual Office
       </h4>
-      <p className="text-center px-6 py-2 text-justify mb-3">
+      <p className="px-6 py-2 text-justify mb-3">
         The only place you&apos;ll ever need to visit to clear all your
         study abroad queries. Staying connected with you during all times is
         of utmost importance to us, and we let no obstacle come in the way
@@ -21,7 +21,7 @@ export const AboutDesc = () => {
     </div>
     <div className="grid grid-cols-3 my-16">
       <div>
-        <div className="flex items-start gap-4">
+        <div className="flex items-start gap-4 items-center">
           <img
             src="https://www.aeccglobal.com.np/images/2023/12/20/clip-path-group.webp"
             alt=""

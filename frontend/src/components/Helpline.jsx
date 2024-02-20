@@ -11,7 +11,7 @@ export const Helpline = () => {
         <SlCalender className="text-xl" />
         <p className="font-bold">Meet us online</p>
       </div>
-      <div className="p-3 flex gap-2 justify-end w-[90%] m-auto cursor-pointer hover:bg-purple-500">
+      <div className="p-3 flex gap-2 justify-end  cursor-pointer hover:bg-purple-500 px-8">
         <FaWhatsapp className="text-xl" />
         <p className="font-bold">Chat with us</p>
       </div>
