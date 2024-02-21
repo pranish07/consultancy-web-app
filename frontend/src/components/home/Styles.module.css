@@ -1,0 +1,10 @@
+.sliderWrapper :global .slick-list .slick-track {
+    @apply my-[0] mx-[20];
+  }
+  .sliderWrapper :global .slick-slide:not(.slick-center) {
+    @apply filter blur-sm scale-100;
+  }
+  .sliderWrapper :global .slick-center {
+    @apply filter blur-none scale-110;
+  }
+  

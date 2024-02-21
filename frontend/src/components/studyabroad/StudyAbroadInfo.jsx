@@ -2,7 +2,7 @@ import { Form } from "../Form";
 
 export const StudyAbroadInfo = () => {
   return (
-    <div>
+    <div className="">
       <nav className="">
         <ul className="flex gap-2 p-3 justify-around">
           <li>Why study in Australia</li>
@@ -16,10 +16,10 @@ export const StudyAbroadInfo = () => {
           <li>FAQ</li>
         </ul>
       </nav>
-      <div className="flex">
+      <div className="flex w-[90%] m-auto my-9 gap-6">
         <div>
           <div className="">
-            <h1>Study in Australia from Nepal</h1>
+            <h1 className="text-3xl text-primary my-6">Study in Australia from Nepal</h1>
             <p>
               Australia is a contemporary, democratic nation with excellent
               healthcare, top-notch educational institutions, and a unique
@@ -28,14 +28,18 @@ export const StudyAbroadInfo = () => {
               opportunities, whether it&apos;s because of the exciting way of
               life, welcoming culture, or excellent educational resources.
             </p>
-            <iframe src="https://www.youtube.com/embed/xMFFfStvml0?si=OOq_K-P9eIvI_C_C" />
+            <div className="my-6">
+              <p>
+            <iframe src="https://www.youtube.com/embed/xMFFfStvml0?si=OOq_K-P9eIvI_C_C" className="w-[60%] m-auto block" height={300}/>
+            </p>
+            </div>
           </div>
           {/* table */}
           <div></div>
 
           <div>
             <div>
-              <h1>Benefits of Studying in Australia for Nepalese Students</h1>
+              <h1 className="text-3xl text-primary my-6">Benefits of Studying in Australia for Nepalese Students</h1>
               <p>
                 In recent years, the number of students from around the world
                 pursuing their studies in the Land Down Under has increased
@@ -91,7 +95,7 @@ export const StudyAbroadInfo = () => {
           {/* popular courses to study */}
           <div>
             <div>
-              <h1>
+              <h1 className="text-3xl text-primary my-6">
                 Popular Courses to Study in Australia for Nepalese Students
               </h1>
               <p>
@@ -108,7 +112,7 @@ export const StudyAbroadInfo = () => {
 
           {/* top university */}
           <div>
-            <h1>
+            <h1 className="text-3xl text-primary my-6">
               Top Universities to Study in Australia for Nepalese Students
             </h1>
             <p>
@@ -122,7 +126,7 @@ export const StudyAbroadInfo = () => {
           {/* requirements to study */}
 
           <div>
-            <h1>Requirements to Study in Australia for Nepalese Students</h1>
+            <h1 className="text-3xl text-primary my-6">Requirements to Study in Australia for Nepalese Students</h1>
             <p>
               To understand how to study in Australia, you must also understand
               the admission requirements for different courses in Australia:
@@ -131,7 +135,7 @@ export const StudyAbroadInfo = () => {
 
           {/* documents required to study in australian university */}
           <div>
-            <h1>Documents Required to Study in Australian Universities</h1>
+            <h1 className="text-3xl text-primary my-6">Documents Required to Study in Australian Universities</h1>
             <p>
               You are expected to meet a few requirements to Study in Australian
               Universities. Though there can be minor variations in the
@@ -141,7 +145,7 @@ export const StudyAbroadInfo = () => {
           </div>
           {/* SOP */}
           <div>
-            <h1>Statement of Purpose</h1>
+            <h1 className="text-3xl text-primary my-6">Statement of Purpose</h1>
             <p>
               A statement of purpose is a written essay that allows an applicant
               to communicate their professional and academic qualifications,
@@ -157,12 +161,12 @@ export const StudyAbroadInfo = () => {
 
           {/* intakes */}
           <div>
-            <h1>Intake to study in Australia for Nepalese Students</h1>
+            <h1 className="text-3xl text-primary my-6">Intake to study in Australia for Nepalese Students</h1>
           </div>
 
           {/* Cost of studying */}
           <div>
-            <h1>Cost of Studying in Australia for Nepalese Students</h1>
+            <h1 className="text-3xl text-primary my-6">Cost of Studying in Australia for Nepalese Students</h1>
             <p>
               Choosing to pursue a degree in Australia is no small decision, and
               it&apos;s important for students to understand the full costs
@@ -175,7 +179,7 @@ export const StudyAbroadInfo = () => {
 
           {/* Scholarship */}
           <div>
-            <h1>Scholarships to Study in Australia for Nepalese Students</h1>
+            <h1 className="text-3xl text-primary my-6">Scholarships to Study in Australia for Nepalese Students</h1>
             <p>
               For Nepalese students considering higher education in Australia,
               it is of the utmost importance to assess the financial components
@@ -190,12 +194,12 @@ export const StudyAbroadInfo = () => {
           {/* Living in aus */}
 
           <div>
-            <h1>Living in Australia for Nepalese Students</h1>
+            <h1 className="text-3xl text-primary my-6">Living in Australia for Nepalese Students</h1>
           </div>
 
           {/* post work */}
           <div>
-            <h1>
+            <h1 className="text-3xl text-primary my-6">
               Post-study Work Opportunities in Australia for Nepalese Students
             </h1>
           </div>
