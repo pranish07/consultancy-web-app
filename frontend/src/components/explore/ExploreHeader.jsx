@@ -22,7 +22,7 @@ export const ExploreHeader = () => {
         </div>
       </div>
 
-      <div className=" w-[90%] m-auto bg-white p-4 rounded-xl flex gap-2 text-black justify-center absolute -bottom-10 left-[5%] ">
+      <div className="shadow-md bg-white w-[90%] m-auto bg-white p-4 rounded-xl flex gap-2 text-black justify-center absolute -bottom-10 left-[5%] ">
         <div className="border-black border-2 p-3 flex rounded-xl w-[30%]">
           <i>icon</i>
           <div>

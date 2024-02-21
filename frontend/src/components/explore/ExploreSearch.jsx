@@ -6,7 +6,7 @@ export const ExploreSearch = () => {
         <span className="block">aspirations </span>
       </h1>
 
-      <div className="w-[90%] m-auto flex gap-4  p-5 rounded-xl ">
+      <div className="w-[90%] shadow-lg bg-white m-auto flex gap-4  p-5 rounded-xl ">
         <input
           type="text"
           placeholder="What do you want to study?"
