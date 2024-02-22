@@ -129,7 +129,7 @@ export const BlogInfo = () => {
               <p className="pb-2">AECC Nepal</p>
             </div>
           </div>
-          <div className="flex gap-3 my-3">
+          <div className="md:flex gap-3 my-3">
             {blog.toppost.map(({ image, heading }, idx) => {
               return (
                 <div
@@ -148,7 +148,7 @@ export const BlogInfo = () => {
         {/* Study in canada */}
         <div className="">
           <h1 className="text-2xl my-5 font-bold">Study to canada</h1>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="md:grid grid-cols-2 gap-4">
             {blog.studyInCanada.map(({ image, heading }, idx) => {
               return (
                 <div
@@ -177,7 +177,7 @@ export const BlogInfo = () => {
         <div>
           {/* Study in USA */}
           <h1 className="text-2xl my-5 font-bold">Study in USA</h1>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="md:grid grid-cols-2 gap-4">
             {blog?.studyInUSA?.map(({ image, heading }, idx) => {
               return (
                 <div
@@ -205,7 +205,7 @@ export const BlogInfo = () => {
         <div>
           {/* Courses */}
           <h1 className="text-2xl my-5 font-bold">Courses</h1>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="md:grid grid-cols-2 gap-4">
             {blog?.Courses?.map(({ image, heading }, idx) => {
               return (
                 <div
@@ -233,10 +233,10 @@ export const BlogInfo = () => {
         <div className="">
           {/* Services */}
           <h1 className="text-2xl my-5 font-bold">Services</h1>
-          <div className="grid grid-cols-2 ">
+          <div className="grid sm:grid-cols-2 gap-3 ">
             {blog.Services.map(({ image, heading }, idx) => {
               return (
-                <div key={idx} className="flex gap-3 items-center">
+                <div key={idx} className="md:flex gap-3 items-center">
                   <img src={image} alt="" />
                   <h4>{heading}</h4>
                 </div>
