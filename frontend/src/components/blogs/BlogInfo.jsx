@@ -115,10 +115,10 @@ const blog = {
 
 export const BlogInfo = () => {
   return (
-    <section className="flex justify-between items-start gap-6 w-[90%] m-auto relative my-12">
+    <section className="large:flex  justify-between items-start gap-6 w-[90%] m-auto relative my-12">
       {/* info */}
 
-      <div className="w-2/3">
+      <div className="large:w-2/3">
         <div>
           <h1 className="text-2xl my-5 font-bold">Top Posts</h1>
           <div className="bg-[url(https://www.aeccglobal.com.np/images/2024/01/19/keele-university.webp)] h-[400px] w-full bg-no-repeat bg-cover relative rounded-xl">
@@ -247,7 +247,7 @@ export const BlogInfo = () => {
       </div>
 
       {/* form */}
-      <div className="w-1/3 shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] rounded p-8 sticky top-5 bottom-0 mt-20">
+      <div className="large:w-1/3 shadow-lg bg-white rounded p-8 large:sticky top-5 bottom-0 mt-20">
         <h4 className="text-xl text-primary font-bold p-2">
           Fulfill your futuristic Academic Goals with Pranish.
         </h4>
