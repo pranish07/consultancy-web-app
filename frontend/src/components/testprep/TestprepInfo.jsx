@@ -2,8 +2,8 @@ import { TestPrepInfoForm } from "./TestPrepInfoForm";
 
 export const TestprepInfo = () => {
   return (
-    <div className="flex gap-6">
-      <div className="w-[45%]">
+    <div className="md:flex gap-6">
+      <div className="md:w-[45%]">
         <h1 className="text-2xl my-6">
           English Proficiency Courses for International Students
         </h1>
