@@ -1,8 +1,8 @@
 export const StudentTestimonial = () => {
   return (
     <section className="bg-[#F5F4FF] ">
-      <div className=" flex justify-center gap-8 w-[80%] m-auto py-10">
-        <div className="w-[40%]">
+      <div className=" md:flex justify-center gap-8 w-[80%] m-auto py-10">
+        <div className="md:w-[40%] max-md:mb-6">
           <img
             src="https://www.aeccglobal.com.np/images/2023/11/07/testimonials-page.webp"
             alt=""

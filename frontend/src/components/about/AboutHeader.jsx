@@ -1,8 +1,8 @@
 export const AboutHeader = () => {
   return (
     <section className=" py-5 w-full m-auto bg-[url(https://www.aeccglobal.com.np/images/2023/12/20/top.webp)] relative">
-      <div className="flex items-start gap-6 m-auto w-[90%] pt-8">
-        <div className=" m-6 flex flex-col gap-3">
+      <div className="max-md:flex-col-reverse  flex items-start gap-6 m-auto w-[90%] pt-8">
+        <div className=" max-md:m-auto m-6 flex flex-col gap-3">
           <div>
             <h2 className="text-3xl font-bold">Talk to your expert</h2>
             <h3 className="text-lg">
@@ -28,7 +28,7 @@ export const AboutHeader = () => {
             <p>10:30 A.M. - 5:00 PM</p>
           </div>
         </div>
-        <div className="right-0 w-[50%]">
+        <div className="right-0 max-w-[600px]">
           <img
             src="https://www.aeccglobal.com.np/images/2023/12/20/banner-6-1.webp"
             alt=""

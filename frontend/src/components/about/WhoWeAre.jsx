@@ -1,8 +1,8 @@
 export const WhoWeAre = () => {
   return (
     <section className="w-[90%] m-auto">
-      <div className="flex my-6 justify-center items-center">
-        <div className="w-[50%] flex flex-col gap-4">
+      <div className="flex max-md:flex-col-reverse  my-6 justify-center items-center">
+        <div className="md:w-[50%] flex flex-col gap-4">
           <h2 className="text-3xl">
             Guiding your every step in international education
           </h2>
@@ -25,14 +25,14 @@ export const WhoWeAre = () => {
           />
         </div>
       </div>
-      <div className="flex mb-9 justify-center items-center">
+      <div className="md:flex mb-9 justify-center items-center">
         <div>
           <img
             src="https://www.aeccglobal.com.np/images/2021/03/18/3.webp"
             alt=""
           />
         </div>
-        <div className="w-[50%] flex flex-col gap-4 items-start">
+        <div className="md:w-[50%] flex flex-col gap-4 items-start">
           <h2 className="text-3xl">Our experience and partnerships will help you go a long way</h2>
           <p>
             Since 2008, we&apos;ve been helping students from all around the world to

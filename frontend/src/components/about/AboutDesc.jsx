@@ -19,13 +19,13 @@ export const AboutDesc = () => {
         All you have to do is:
       </p>
     </div>
-    <div className="grid grid-cols-3 my-16">
+    <div className=" md:grid grid-cols-3 my-16  ">
       <div>
-        <div className="flex items-start gap-4 items-center">
+        <div className="flex items-start gap-4 items-center ">
           <img
             src="https://www.aeccglobal.com.np/images/2023/12/20/clip-path-group.webp"
             alt=""
-            className="max-w-full h-auto"
+            className="max-w-full h-auto min-w-[60px]"
           />
           <p>Fill in the details in the form below</p>
         </div>
@@ -35,7 +35,7 @@ export const AboutDesc = () => {
           <img
             src="https://www.aeccglobal.com.np/images/2023/12/20/clip-path-group-2.webp"
             alt=""
-            className="max-w-full h-auto"
+            className="max-w-full h-auto min-w-[80px]"
           />
           <p>
             Click on the meetus online button and you will be redirected to
@@ -48,7 +48,7 @@ export const AboutDesc = () => {
           <img
             src="https://www.aeccglobal.com.np/images/2023/12/20/asset-40.webp"
             alt=""
-            className="max-w-full h-auto"
+            className="max-w-full h-auto min-w-[80px]"
           />
           <p>
             Connect with an expert education counsellers in a private room
