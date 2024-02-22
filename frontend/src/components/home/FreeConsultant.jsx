@@ -3,8 +3,27 @@ import Slider from "react-slick";
 import styles from "./Styles.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { useEffect, useState } from "react";
 
 export const FreeConsultant = () => {
+  const [centerPadding, setCenterPadding] = useState("180px");
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 576) {
+        // Assuming 'sm' breakpoint in Tailwind CSS is  576px
+        setCenterPadding("0");
+      } else {
+        setCenterPadding("180px");
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Call once to set the initial value
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   const settings = {
     dots: true,
     infinite: true,
@@ -12,13 +31,13 @@ export const FreeConsultant = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
-    centerPadding: "180px",
+    centerPadding: centerPadding,
     autoplay: true,
     autoplaySpeed: 3000,
   };
   return (
-    <section className=" py-16 w-[90%] m-auto p-4 grid grid-cols-2 gap-4 justify-center">
-      <div className="flex flex-col items-start gap-4 w-2/3 justify-center ">
+    <section className="  py-16 w-[90%]  m-auto p-4 large:grid large:grid-cols-2 gap-4 justify-center max-sm:py-6">
+      <div className="max-large:m-auto flex flex-col items-start gap-4 sm:w-2/3 max-sm:my-8 justify-center ">
         <h3 className="text-xl">
           With you at every step of your study abroad journey
         </h3>
@@ -31,32 +50,36 @@ export const FreeConsultant = () => {
         </button>
       </div>
 
-      <div className={`${styles.sliderWrapper} flex flex-col justify-center md:min-w-[300px] w-full`}>
+      <div
+        className={`${styles.sliderWrapper} flex flex-col  justify-center max-large:max-w-[600px] large:max-w-[550px]  xl:max-w-[600px] m-auto large: py-10 max-large:my-4`}
+      >
         <div>
           <Slider {...settings} className="cursor-pointer focus:outline:none">
-            <div >
+            <div className="">
               <img
                 src="https://www.aeccglobal.com.np/images/2023/08/14/university-admission.svg"
                 alt=""
+                className="m-auto"
                 height={200}
                 width={200}
-                className=""
               />
             </div>
-            <div >
+            <div>
               <img
                 src="https://www.aeccglobal.com.np/images/2023/08/14/student-accomodation-1.svg"
                 alt=""
                 height={200}
                 width={200}
+                className="m-auto"
               />
             </div>
-            <div >
+            <div>
               <img
                 src="https://www.aeccglobal.com.np/images/2023/08/14/education-counseling-1.svg"
                 alt=""
                 height={200}
                 width={200}
+                className="m-auto"
               />
             </div>
             <div>
@@ -65,14 +88,16 @@ export const FreeConsultant = () => {
                 alt=""
                 height={200}
                 width={200}
+                className="m-auto"
               />
             </div>
-            <div >
+            <div>
               <img
                 src="https://www.aeccglobal.com.np/images/2023/08/14/scholarship-guidance.svg"
                 alt=""
                 height={200}
                 width={200}
+                className="m-auto"
               />
             </div>
             <div>
@@ -81,6 +106,7 @@ export const FreeConsultant = () => {
                 alt=""
                 height={200}
                 width={200}
+                className="m-auto"
               />
             </div>
             <div>
@@ -89,6 +115,7 @@ export const FreeConsultant = () => {
                 alt=""
                 height={200}
                 width={200}
+                className="m-auto"
               />
             </div>
             <div>
@@ -97,6 +124,7 @@ export const FreeConsultant = () => {
                 alt=""
                 height={200}
                 width={200}
+                className="m-auto"
               />
             </div>
           </Slider>

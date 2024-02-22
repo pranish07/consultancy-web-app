@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 export const Navbar = () => {
   return (
     <div>
-      <ul className="font-black flex gap-4 font-normal text-white justify-center bg-black p-5">
+      <ul className="font-black flex flex-wrap gap-4 font-normal text-white justify-center bg-black p-5">
         <NavLink to={"/"}>
           <li>Home page</li>
         </NavLink>

@@ -52,9 +52,9 @@ export const Header = () => {
   return (
     <section className="h-[400px]">
       <Slider {...settings} className="">
-        <div className="h-[50vh]">
+        <div>
           <div className="relative">
-            <div className="">
+            <div>
               <img
                 className=" object-cover bg-cover w-full h-[400px]"
                 src="https://www.idp.com/medias/Aus-VF-banner-Feb.jpg?context=bWFzdGVyfHJvb3R8Nzc4MjB8aW1hZ2UvanBlZ3xhRGt6TDJoa01TOHhNVEk1TVRRNE1ETTVNVGN4TUM5QmRYTXRWa1l0WW1GdWJtVnlMVVpsWWk1cWNHY3w0NmQ5NmZjYmVhMzRjZTJhNzc4NmUzODIzMDVmNjI4ZDBiMTM2YTVlNzg1OTk3NjEwODEwMjY3N2MxZmQ0NmNj"

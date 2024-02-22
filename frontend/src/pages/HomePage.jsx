@@ -10,7 +10,7 @@ import { Helpline } from "../components/Helpline";
 
 export const HomePage = () => {
   return (
-    <div>
+    <div className="max-w-[2000px] m-auto">
       <Helpline />
       <Navbar />
       <Header />
@@ -27,7 +27,7 @@ export const HomePage = () => {
           You can get these following services by our company
         </p>
         <section className="m-auto w-[90%] ">
-          <div className="grid grid-cols-3 gap-9 ">
+          <div className="grid  justify-items-center large:grid-cols-3 gap-9 ">
             <ApplicationProcess
               topic="Education Counselling"
               desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate deleniti nisi optio officiis aliquam cumque iusto qui sit ut."

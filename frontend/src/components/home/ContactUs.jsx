@@ -1,8 +1,8 @@
 export const ContactUs = () => {
   return (
     <section className="bg-gray-100">
-      <div className="flex  p-10 w-[90%] m-auto items-start justify-between">
-        <div className="w-1/3">
+      <div className="large:flex  p-10 w-[90%] m-auto items-start justify-between">
+        <div className="large:w-1/3">
           <h2 className="text-3xl text-purple-400">
             Better futures, begin with Pranish.
           </h2>
@@ -21,7 +21,7 @@ export const ContactUs = () => {
           </p>
           </div>
         </div>
-        <div className="">
+        <div className="max-large:mt-5">
           <h3 className="font-bold text-primary text-xl mb-4">
             Turn your study Abroad Dream to Degrees abroad
           </h3>

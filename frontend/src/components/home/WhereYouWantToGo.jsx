@@ -51,7 +51,7 @@ export const WhereYouWantToGo = () => {
         post-study work rights and more
       </p>
       <section className="w-[90%] m-auto">
-        <div className="grid grid-cols-3 justify-items-center gap-8">
+        <div className="grid md:grid-cols-3 max-md:grid-cols-2 max-sm:grid-cols-1 justify-items-center gap-8">
           {dataOfPlaces.map((item) => (
             <StudyInPlacesCard
               key={item.id}

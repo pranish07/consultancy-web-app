@@ -4,7 +4,7 @@ import { PiPath } from "react-icons/pi";
 import { IoLocation } from "react-icons/io5";
 export const WhySection = () => {
   return (
-    <div className="flex bg-primary text-white mt-7 p-8">
+    <div className="large:flex bg-primary text-white mt-7 p-8">
       <div className="w-4/5 m-6">
         <h1 className="text-5xl block">
           WHY <span className="block text-7xl">Pranish.</span>
@@ -18,7 +18,7 @@ export const WhySection = () => {
           sit voluptate fugit a aliquam deserunt aut porro saepe alias dolorem
           tempore.
         </p>
-        <div className="flex gap-4 justify-center">
+        <div className="sm:flex gap-4 justify-center">
           <div>
             <div className="flex justify-center mb-4">
               <IoLocation className=" text-6xl text-center bg-green-500 rounded-full p-2 text-white " />

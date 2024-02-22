@@ -15,7 +15,7 @@ const country = [
 export const Footer = () => {
   return (
     <section className="bg-primary">
-      <div className="flex w-[90%] m-auto py-5 gap-8">
+      <div className="md:flex w-[90%] m-auto py-5 gap-8">
         {" "}
         <div className="w-[30%] text-white text-right mr-5">
           <h1 className="text-5xl">Pranish.</h1>
@@ -158,7 +158,7 @@ export const Footer = () => {
       </div>
       <div className="w-[90%] m-auto text-gray-500 pb-20 ">
         <hr className="m-3" />
-        <div className="flex gap-6 justify-center ">
+        <div className="flex flex-wrap  gap-6 justify-center ">
           {country.map((item, idx) => {
             return <div key={idx}>{item}</div>;
           })}
