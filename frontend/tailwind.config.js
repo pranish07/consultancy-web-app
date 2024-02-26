@@ -7,6 +7,7 @@ export default {
         primary:'#110053',
         purple: '#CCC5FF',
         green: '#dffff6',
+        lightGreen:"#64FFD9",
       },
       fontFamily: {
         'ubuntu': ['Ubuntu', 'sans-serif'],
@@ -19,6 +20,10 @@ export default {
         "2xl": "1536px",
         "3xl": "2560px",
       },
+      backgrondPosition: {
+        'top-left': 'top left',
+        'top-right': 'top right',
+      }
     },
   },
   plugins: [],

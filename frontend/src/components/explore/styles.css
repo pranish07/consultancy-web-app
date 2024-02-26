@@ -1,0 +1,7 @@
+.frame {
+    background-image: url('https://search.aeccglobal.com/coursev2/images/career-left-curve.svg'), url('https://search.aeccglobal.com/coursev2/images/career-right-curve.svg');
+    background-position: top left, top right;
+    background-repeat: no-repeat;
+    /* Adjust size as needed */
+    background-size: 50% 50%;
+  }

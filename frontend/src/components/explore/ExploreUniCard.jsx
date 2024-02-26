@@ -24,14 +24,14 @@ export const ExploreUniCard = () => {
         </div>
       </div>
       <div className="px-3 py-2">
-        <h2 className="text-xl">Deaken University</h2>
-        <h4 className="text-lg">Melbourne, Australia</h4>
+        <h2 className="text-lg">Deaken University</h2>
+        <h4 className="text-sm">Melbourne, Australia</h4>
 
         <div className="grid grid-cols-2 gap-3 px-2">
           <div className="flex items-center gap-2">
             <div>logo</div>
             <div>
-              <h4 className="text-purple-500 text-sm">Rankings</h4>
+              <h4 className="text-purple text-sm">Rankings</h4>
               <p>251-300</p>
             </div>
           </div>
@@ -39,7 +39,7 @@ export const ExploreUniCard = () => {
           <div className="flex items-center gap-2">
             <div>logo</div>
             <div>
-              <h4 className="text-purple-500 text-sm">On Campus Accomodation</h4>
+              <h4 className="text-purple text-sm">On Campus Accomodation</h4>
               <p>Available</p>
             </div>
           </div>
@@ -47,7 +47,7 @@ export const ExploreUniCard = () => {
           <div className="flex items-center gap-2">
             <div>logo</div>
             <div>
-              <h4 className="text-purple-500 text-sm">Year Established</h4>
+              <h4 className="text-purple text-sm">Year Established</h4>
               <p>1974</p>
             </div>
           </div>
@@ -55,7 +55,7 @@ export const ExploreUniCard = () => {
           <div className="flex items-center gap-2">
             <div>logo</div>
             <div>
-              <h4 className="text-purple-500 text-sm">Students</h4>
+              <h4 className="text-purple text-sm">Students</h4>
               <p>61k+</p>
             </div>
           </div>

@@ -1,9 +1,10 @@
-import { TestPrepInfoForm } from "./TestPrepInfoForm";
+// import { TestPrepInfoForm } from "./TestPrepInfoForm";
+import {Form} from "../Form"
 
 export const TestprepInfo = () => {
   return (
     <div className="md:flex gap-6">
-      <div className="md:w-[45%]">
+      <div className="md:w-[70%]">
         <h1 className="text-2xl my-6">
           English Proficiency Courses for International Students
         </h1>
@@ -24,7 +25,10 @@ export const TestprepInfo = () => {
         </button>
         </div>
       </div>
-      <TestPrepInfoForm />
+      {/* <TestPrepInfoForm /> */}
+      <div className="">
+      <Form/>
+      </div>
     </div>
   );
 };
