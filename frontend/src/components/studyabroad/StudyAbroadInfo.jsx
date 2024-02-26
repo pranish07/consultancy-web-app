@@ -45,9 +45,21 @@ const studyAbroadData = {
         },
       ],
       data: [
-        { icon: "", numbers: "50,000+", title: "Nepalese Students" },
-        { icon: "", numbers: "22,000+", title: "Courses" },
-        { icon: "", numbers: "1,100+", title: "Institutions" },
+        {
+          icon: "https://www.aeccglobal.com.np/images/2023/08/14/total-students.webp",
+          numbers: "50,000+",
+          title: "Nepalese Students",
+        },
+        {
+          icon: "https://www.aeccglobal.com.np/images/2023/08/14/total-courses.svg",
+          numbers: "22,000+",
+          title: "Courses",
+        },
+        {
+          icon: "https://www.aeccglobal.com.np/images/2023/08/14/total-institutions.svg",
+          numbers: "1,100+",
+          title: "Institutions",
+        },
       ],
     },
     popularCourses: {
@@ -182,22 +194,40 @@ const studyAbroadData = {
 
 export const StudyAbroadInfo = () => {
   return (
-    <div className="">
+    <div className=" ">
       <nav className="shadow-lg">
-        <ul className="flex gap-2 p-3 justify-around">
-          <li>Why study in Australia</li>
-          <li>benefits</li>
-          <li>College & Universities</li>
-          <li>Requirements</li>
-          <li>Cost</li>
-          <li>Scholarship</li>
-          <li>Living</li>
-          <li>Work</li>
-          <li>FAQ</li>
+        <ul className="flex flex-wrap gap-1 p-3 justify-around">
+          <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+            Why study in Australia
+          </li>
+          <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+            benefits
+          </li>
+          <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+            College & Universities
+          </li>
+          <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+            Requirements
+          </li>
+          <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+            Cost
+          </li>
+          <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+            Scholarship
+          </li>
+          <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+            Living
+          </li>
+          <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+            Work
+          </li>
+          <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+            FAQ
+          </li>
         </ul>
       </nav>
-      <div className="flex w-[90%] m-auto my-9 gap-6">
-        <div>
+      <div className="large:flex w-[90%] m-auto my-9 gap-6">
+        <div className="large:w-[70%]">
           <div className="">
             <h1 className="text-3xl text-primary my-6">
               Study in Australia from Nepal
@@ -214,7 +244,7 @@ export const StudyAbroadInfo = () => {
               <p>
                 <iframe
                   src="https://www.youtube.com/embed/xMFFfStvml0?si=OOq_K-P9eIvI_C_C"
-                  className="w-full m-auto block object-cover bg-cover"
+                  className="w-[90%] m-auto block object-cover bg-cover"
                   height={400}
                 />
               </p>
@@ -227,7 +257,7 @@ export const StudyAbroadInfo = () => {
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="text-xl">
+                  <tbody className="text-normal">
                     {studyAbroadData?.studyInAus?.studyInAusFromNepal?.keyFacts?.tableData?.map(
                       ({ title, desc }, idx) => {
                         return (
@@ -286,23 +316,23 @@ export const StudyAbroadInfo = () => {
 
               {/* table */}
               <div className="overflow-x-auto">
-                <table className="min-w-full table-auto">
-                  <thead>
-                    <tr>
-                      <th className="px-4 py-2">Field of Study</th>
-                      <th className="px-4 py-2">Courses/Programs</th>
-                      <th className="px-4 py-2">
+                <table className="min-w-full table-auto rounded-xl my-3 shadow-lg ">
+                  <thead className="">
+                    <tr className="bg-green ">
+                      <th className="px-4 py-2 border">Field of Study</th>
+                      <th className="px-4 py-2 border ">Courses/Programs</th>
+                      <th className="px-4 py-2 border">
                         Average Tuition Fees(per year)
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="text-xl">
+                  <tbody className="text-normal">
                     {studyAbroadData.studyInAus.popularCourses.informationOfCourses.map(
                       ({ field, courses, avgTuition }, idx) => {
                         return (
                           <tr
                             className={`${
-                              idx % 2 === 0 ? "bg-white" : "bg-gray-300"
+                              idx % 2 === 0 ? "bg-white" : "bg-gray-100"
                             }`}
                             key={idx}
                           >
@@ -321,7 +351,36 @@ export const StudyAbroadInfo = () => {
                 </table>
               </div>
 
-              <div></div>
+              <div className="flex justify-around my-6 bg-purple p-10 rounded-xl">
+                {studyAbroadData.studyInAus.benefitsOfStudyingInAus.data.map(
+                  ({ icon, numbers, title }, idx) => {
+                    return (
+                      <div
+                        key={idx}
+                        className="flex max-md:flex-col max-md:justify-center gap-8 min-h-[50px] items-center w-[200px]"
+                      >
+                        <div className="">
+                          <img src={icon} alt="" />
+                        </div>
+                        <div className="max-md:text-center max-md: h-[80px]">
+                          <h2 className="font-bold text-xl">{numbers}</h2>
+                          <p>{title}</p>
+                        </div>
+                      </div>
+                    );
+                  }
+                )}
+              </div>
+              <small>
+                Need to learn more about Applying to Study in Australia and all
+                the benefits that you can gain by it? Contact AECC, the best
+                education consultancy in Nepal for Australia!
+              </small>
+              <div className="flex justify-center my-4">
+                <button className="bg-primary rounded-full text-white py-2 px-4 block">
+                  Want to study in Australia? Get Free Counselling
+                </button>
+              </div>
             </div>
           </div>
 
@@ -348,6 +407,19 @@ export const StudyAbroadInfo = () => {
               To understand how to study in Australia, you must also understand
               the admission requirements for different courses in Australia:
             </p>
+            <div>
+              {studyAbroadData.studyInAus.requirements.map(
+                ({ title, desc }, idx) => {
+                  return (
+                    <div key={idx}>
+                      <p>
+                        {idx + 1}. <strong>{title}</strong>:{desc}
+                      </p>
+                    </div>
+                  );
+                }
+              )}
+            </div>
           </div>
 
           {/* documents required to study in australian university */}
@@ -361,6 +433,7 @@ export const StudyAbroadInfo = () => {
               criteria, depending on the university you apply to, most of them
               will be asked for. They are as follows: -
             </p>
+            <div></div>
           </div>
           {/* SOP */}
           <div>
@@ -434,7 +507,7 @@ export const StudyAbroadInfo = () => {
           {/* FAQ */}
           <div></div>
         </div>
-        <div className="w-30%">
+        <div className="large:w-[30%]">
           <Form />
         </div>
       </div>
