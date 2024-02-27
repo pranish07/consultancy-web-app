@@ -22,8 +22,8 @@ export const ExploreHeader = () => {
         </div>
       </div>
 
-      <div className="shadow-md bg-white w-[90%] m-auto bg-white p-4 rounded-xl flex gaps2 text-black justify-center absolute -bottom-10 left-[5%] ">
-        <div className="border-black border-2 p-3 flex rounded-xl w-[30%]">
+      <div className="shadow-md bg-white w-[90%] m-auto bg-white p-4 rounded-xl flex flex-wrap gap-2 text-black justify-around max-md:hidden md:absolute -bottom-10 left-[5%] ">
+        <div className="shadow-lg bg-white p-3 flex rounded-xl large:w-[22%] max-large:w-[45%] max-md:w-[90%]">
           <img src="https://res.cloudinary.com/dpmijkbpm/image/upload/v1708953114/consulting-web-app/pic1_lzfy08.png" alt="" className="w-[40px] h-[40px] bg-cover" />
           <div className="ml-4">
             <h3 className="text-xl font-bold text-primary">800,000+</h3>
@@ -31,21 +31,21 @@ export const ExploreHeader = () => {
           </div>
         </div>
 
-        <div className="border-black border-2 rounded-xl p-3 flex w-[30%]">
+        <div className="shadow-lg bg-white rounded-xl p-3 flex large:w-[22%] max-large:w-[45%] max-md:w-[90%]">
           <img src="https://res.cloudinary.com/dpmijkbpm/image/upload/v1708953114/consulting-web-app/pic2_esofwf.png" alt="" className="w-[40px] h-[40px] bg-cover" />
           <div className="ml-4">
             <h3 className="text-xl font-bold text-primary">140,000+</h3>
             <p>Program Offered</p>
           </div>
         </div>
-        <div className="border-black border-2 p-3 flex rounded-xl w-[30%]  ">
+        <div className="shadow-lg bg-white p-3 flex rounded-xl large:w-[22%] max-large:w-[45%] max-md:w-[90%]  ">
           <img src="https://res.cloudinary.com/dpmijkbpm/image/upload/v1708953114/consulting-web-app/pic3_lwr6kg.png" alt="" className="w-[40px] h-[40px] bg-cover" />
           <div className="ml-4">
             <h3 className="text-xl font-bold text-primary">1,500+</h3>
             <p>Institutions</p>
           </div>
         </div>
-        <div className="border-black border-2 p-3 flex rounded-xl w-[30%]">
+        <div className="shadow-lg bg-white p-3 flex rounded-xl large:w-[22%] max-large:w-[45%] max-md:w-[90%]">
           <img src="https://res.cloudinary.com/dpmijkbpm/image/upload/v1708953114/consulting-web-app/pic4_imjgly.png" alt="" className="w-[40px] h-[40px] bg-cover"/>
           <div className="ml-4">
             <h3 className="text-xl font-bold text-primary">5</h3>
