@@ -22,11 +22,13 @@ export const AboutHeader = () => {
               us
             </li>
           </ul>
-          <div className="bg-purple-500 text-center py-4 px-2 w-48 rounded-xl relative text-white cursor-default">
+          
+          <div className="bg-purple text-center py-4 px-2 w-48 rounded-xl relative text-white cursor-default">
             <i>icon</i> <span className="pb-2 inline-block">Sunday - Friday</span>
             <p className="absolute top-6 left-4">__________________</p>
             <p>10:30 A.M. - 5:00 PM</p>
           </div>
+       
         </div>
         <div className="right-0 max-w-[600px]">
           <img
