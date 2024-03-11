@@ -9,7 +9,7 @@ export const BlogHeader = () => {
     "Study in Australia",
   ];
   return (
-    <section className="bg-[#EBE8FF] bg-[url(https://www.aeccglobal.com.np/images/2023/08/29/blog-title-bg.webp)] bg-no-repeat bg-right h-[50vh]">
+    <section className="bg-[#EBE8FF] bg-[url(https://www.aeccglobal.com.np/images/2023/08/29/blog-title-bg.webp)] bg-no-repeat bg-right h-[418px]">
       <div className="w-[90%] m-auto py-5 flex flex-col gap-3 ">
         <h2 className="font-bold text-xl">Blogs</h2>
         <p>Read everything about studying abroad</p>

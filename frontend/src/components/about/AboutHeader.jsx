@@ -1,6 +1,6 @@
 export const AboutHeader = () => {
   return (
-    <section className=" py-5 w-full m-auto bg-[url(https://www.aeccglobal.com.np/images/2023/12/20/top.webp)] relative">
+    <section className=" py-5 w-full m-auto bg-[url(https://www.aeccglobal.com.np/images/2023/12/20/top.webp)] relative lg:h-[418px]">
       <div className="max-md:flex-col-reverse  flex items-start gap-6 m-auto w-[90%] pt-8">
         <div className=" max-md:m-auto m-6 flex flex-col gap-3">
           <div>

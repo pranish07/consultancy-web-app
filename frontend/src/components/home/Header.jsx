@@ -50,13 +50,13 @@ export const Header = () => {
     prevArrow: <SamplePrevArrow />,
   };
   return (
-    <section className="h-[400px]">
+    <section className="h-[418px]">
       <Slider {...settings} className="">
         <div>
           <div className="relative">
             <div>
               <img
-                className=" object-cover bg-cover w-full h-[400px]"
+                className=" object-cover bg-cover w-full h-[418px]"
                 src="https://www.idp.com/medias/Aus-VF-banner-Feb.jpg?context=bWFzdGVyfHJvb3R8Nzc4MjB8aW1hZ2UvanBlZ3xhRGt6TDJoa01TOHhNVEk1TVRRNE1ETTVNVGN4TUM5QmRYTXRWa1l0WW1GdWJtVnlMVVpsWWk1cWNHY3w0NmQ5NmZjYmVhMzRjZTJhNzc4NmUzODIzMDVmNjI4ZDBiMTM2YTVlNzg1OTk3NjEwODEwMjY3N2MxZmQ0NmNj"
                 alt=""
               />
@@ -78,7 +78,7 @@ export const Header = () => {
         <div className="">
           <div className="relative ">
             <img
-              className="object-cover w-full  h-[400px]"
+              className="object-cover w-full  h-[418px]"
               src="https://www.idp.com/medias/Carousal-Canada-Banner-New-Sep.jpg?context=bWFzdGVyfHJvb3R8MTExNTQ2fGltYWdlL2pwZWd8YURSbEwyZzRNQzh4TVRRMU5EWXlNRFk1TmpZd05pOURZWEp2ZFhOaGJDMURZVzVoWkdFdFFtRnVibVZ5TFU1bGR5MVRaWEF1YW5CbnxhYzBjODNlODNiMjdiYTdlMWIwODEwNDEyMWVlNTNiMGM5ODc5ZjIzMzA1MjY0NjA2ZjYwMzZhNTU5ZDBkN2Qx"
               alt=""
             />
@@ -98,7 +98,7 @@ export const Header = () => {
         <div className="">
           <div className="relative ">
             <img
-              className="object-cover w-full  h-[400px]"
+              className="object-cover w-full  h-[418px]"
               src="https://www.idp.com/medias/IDP-Live-Events-Homepage-Banner-Desktop-1366x570-Asian-Man-Clean.png?context=bWFzdGVyfGltYWdlc3wxMjA2MzN8aW1hZ2UvcG5nfGFHTTNMMmhtT0M4eE1UYzROamsxTlRjeE9EWTROaTlKUkZBdFRHbDJaVjlGZG1WdWRITmZTRzl0WlhCaFoyVXRRbUZ1Ym1WeVgwUmxjMnQwYjNCZk1UTTJObmcxTnpCZlFYTnBZVzR0VFdGdVgwTnNaV0Z1TG5CdVp3fDE0YWU3ZWQxYmViMGE2OGM4M2QxNDViYmYxMGE5OTQ3MGU4MmJiOGE2NzgzNGQyMjJlODNkZmExNzk5NTQ3YTQ"
               alt=""
             />
@@ -118,7 +118,7 @@ export const Header = () => {
         <div className="">
           <div className="relative ">
             <img
-              className="object-cover w-full  h-[400px]"
+              className="object-cover w-full  h-[418px]"
               src="https://www.idp.com/medias/Carousal-UK-Banner-New-Aug.jpg?context=bWFzdGVyfHJvb3R8MTI3ODI4fGltYWdlL2pwZWd8YUdVNUwyZzVNQzh4TVRRMU5ESXpOell3TlRreE9DOURZWEp2ZFhOaGJDMVZTeTFDWVc1dVpYSXRUbVYzTFVGMVp5NXFjR2N8YTUwZGM4ZTcyOTU5YzYyZmI5NmU0NzYyMDllZjcwZTVjMjk3OTI1NjUyNWE2YjQ0YzMyZGMwMGQ2M2RlNGQ3Zg"
               alt=""
             />
@@ -138,7 +138,7 @@ export const Header = () => {
         <div className="">
           <div className="relative ">
             <img
-              className="object-cover w-full  h-[400px]"
+              className="object-cover w-full  h-[418px]"
               src="https://www.idp.com/medias/pswbanner.jpg?context=bWFzdGVyfHJvb3R8NzczNDl8aW1hZ2UvanBlZ3xhRFV5TDJnek5TODVPVEEzT1RJd05EQTBOVEV3TG1wd1p3fGVkZGY5NTdiNGVmNTA0N2Q2MTI3NzZiZmI4NjViNmY3OWJmYWUxYjIzNGQ5ZDMyMzU1MWY0YWUxNmVjMzk4ZjQ"
               alt=""
             />
@@ -158,7 +158,7 @@ export const Header = () => {
         <div className="max-h-[300vh]">
           <div className="relative ">
             <img
-              className="object-cover bg-cover w-full  h-[400px]"
+              className="object-cover bg-cover w-full  h-[418px]"
               src="https://www.idp.com/medias/Canada-admission-Day-SE-Carousal-Banner-7Oct.jpg?context=bWFzdGVyfGltYWdlc3w2ODc0NnxpbWFnZS9qcGVnfGFETTVMMmczTkM4eE1UYzVOVFV6TkRZM05UazVPQzlEWVc1aFpHRXRZV1J0YVhOemFXOXVMVVJoZVMxVFJTMURZWEp2ZFhOaGJDMUNZVzV1WlhJdE4wOWpkQzVxY0djfDMzNzE2NTM5YzBhZGQ2MDVkNzc1MTY5OGQ3MWYwNWQ3MzczNjJjMTcyYTFlNTgwN2I0YmMxZmQ5MTJiNTVlNzY"
               alt=""
             />

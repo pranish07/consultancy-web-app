@@ -36,7 +36,7 @@ export const FreeConsultant = () => {
     autoplaySpeed: 3000,
   };
   return (
-    <section className="py-16 w-[90%]  m-auto p-4 large:grid large:grid-cols-2 gap-4 justify-center max-sm:py-6">
+    <section className="py-8 w-[90%]  m-auto p-4 large:grid large:grid-cols-2 gap-4 justify-center max-sm:py-6">
       <div className="max-large:m-auto flex flex-col items-start gap-4 sm:w-2/3 max-sm:my-8 justify-center ">
         <h3 className="text-xl">
           With you at every step of your study abroad journey
