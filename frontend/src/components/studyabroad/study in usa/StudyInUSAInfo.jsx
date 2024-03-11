@@ -6,16 +6,24 @@ export const StudyInUSAInfo = () => {
     <nav className="shadow-lg">
       <ul className="flex flex-wrap gap-1 p-3 justify-around">
         <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+          <a href="#study-in-usa">
           Why study in USA
+          </a>
         </li>
         <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+          <a href="#benefits">
           benefits
+          </a>
         </li>
         <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+          <a href="#top-university">
           College & Universities
+          </a>
         </li>
         <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
+          <a href="#requirements">
           Requirements
+          </a>
         </li>
         <li className="hover:bg-primary hover:text-white cursor-pointer py-1 px-2 rounded-lg">
           Cost
@@ -36,7 +44,7 @@ export const StudyInUSAInfo = () => {
     </nav>
     <div className="large:flex w-[90%] m-auto my-9 gap-6">
       <div className="large:w-[70%]">
-        <div className="">
+        <div className="" id="study-in-usa">
           <h1 className="text-3xl text-primary my-6">
             Study in USA from Nepal
           </h1>
@@ -85,7 +93,7 @@ export const StudyInUSAInfo = () => {
         <div></div>
 
         <div>
-          <div>
+          <div id="benefits">
             <h1 className="text-3xl text-primary my-6">
               Benefits of Studying in USA for Nepalese Students
             </h1>
@@ -111,7 +119,7 @@ export const StudyInUSAInfo = () => {
         </div>
         {/* popular courses to study */}
         <div>
-          <div>
+          <div id="popular-courses">
             <h1 className="text-3xl text-primary my-6">
               Popular Courses to Study in USA for Nepalese Students
             </h1>
@@ -193,7 +201,7 @@ export const StudyInUSAInfo = () => {
         </div>
 
         {/* top university */}
-        <div>
+        <div id="top-university">
           <h1 className="text-3xl text-primary my-6">
             Top Universities to Study in America for Nepalese Students
           </h1>
@@ -207,7 +215,7 @@ export const StudyInUSAInfo = () => {
 
         {/* requirements to study */}
 
-        <div>
+        <div id="requirements">
           <h1 className="text-3xl text-primary my-6">
             Requirements to Study in USA for Nepalese Students
           </h1>

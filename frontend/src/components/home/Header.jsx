@@ -61,7 +61,7 @@ export const Header = () => {
                 alt=""
               />
 
-              <div className="absolute top-3 text-white left-20 items-start flex flex-col gap-4">
+              <div className="absolute top-36 text-white left-20 items-start flex flex-col gap-4">
                 <h3 className="text-3xl font-bold">Study in Australia</h3>
                 <p className="text-xl">
                   Ready for an Aussie adventure? Apply for Feb/July 2024
@@ -83,7 +83,7 @@ export const Header = () => {
               alt=""
             />
 
-            <div className="absolute top-3 text-white left-20 items-start flex flex-col gap-4">
+            <div className="absolute top-36 text-white left-20 items-start flex flex-col gap-4">
               <h3 className="text-3xl font-bold">Study in Australia</h3>
               <p className="text-xl">
                 Ready for an Aussie adventure? Apply for Feb/July 2024 intakes!
@@ -103,7 +103,7 @@ export const Header = () => {
               alt=""
             />
 
-            <div className="absolute top-3 text-white left-20 items-start flex flex-col gap-4">
+            <div className="absolute top-36 text-white left-20 items-start flex flex-col gap-4">
               <h3 className="text-3xl font-bold">Study in Australia</h3>
               <p className="text-xl">
                 Ready for an Aussie adventure? Apply for Feb/July 2024 intakes!
@@ -123,7 +123,7 @@ export const Header = () => {
               alt=""
             />
 
-            <div className="absolute top-3 text-white left-20 items-start flex flex-col gap-4">
+            <div className="absolute top-36 text-white left-20 items-start flex flex-col gap-4">
               <h3 className="text-3xl font-bold">Study in Australia</h3>
               <p className="text-xl">
                 Ready for an Aussie adventure? Apply for Feb/July 2024 intakes!
@@ -143,7 +143,7 @@ export const Header = () => {
               alt=""
             />
 
-            <div className="absolute top-3 text-white left-20 items-start flex flex-col gap-4">
+            <div className="absolute top-36 text-white left-20 items-start flex flex-col gap-4">
               <h3 className="text-3xl font-bold">Study in Australia</h3>
               <p className="text-xl">
                 Ready for an Aussie adventure? Apply for Feb/July 2024 intakes!
@@ -163,7 +163,7 @@ export const Header = () => {
               alt=""
             />
 
-            <div className="absolute top-3 text-white left-20 items-start flex flex-col gap-4">
+            <div className="absolute top-36 text-white left-20 items-start flex flex-col gap-4">
               <h3 className="text-3xl font-bold">Study in Australia</h3>
               <p className="text-xl">
                 Ready for an Aussie adventure? Apply for Feb/July 2024 intakes!
