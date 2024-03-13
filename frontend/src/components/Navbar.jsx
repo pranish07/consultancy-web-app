@@ -112,7 +112,7 @@ export const Navbar = () => {
                   </NavLink>
                 </summary>
                 <ul className="p-2 bg-black">
-                  <NavLink to={"/studyinaus"}>
+                  <NavLink to={"/studyinaustralia"}>
                     <li className="p-2">Study in Australia</li>
                   </NavLink>
 

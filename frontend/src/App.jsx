@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/explore" element={<ExploreUniPage />} />
         <Route path="/studyabroad" element={<StudyAbroadPage />} />
         <Route path="/studyinusa" element={<StudyAbroadInUSA />} />
-        <Route path="/studyinaus" element={<StudyAbroadInAus />} />
+        <Route path="/studyinaustralia" element={<StudyAbroadInAus />} />
         <Route path="/studyincanada" element={<StudyAbroadInCanada />} />
         <Route path="/testprep" element={<TestPrepPage />} />
         <Route path="*" element={"Page not found"} />
